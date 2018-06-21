@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.android.chatapp.StartActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Добро пожаловать"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/start_log_btn"
+        android:layout_alignStart="@+id/start_log_btn"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="@android:color/white"
+        android:text="Зарегестрироваться"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/start_log_btn"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="119dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="ВОЙТИ В АККАУНТ"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="331dp" />
+</RelativeLayout>
